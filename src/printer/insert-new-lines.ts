@@ -581,14 +581,6 @@ export function printWithMultilineArrays(
             ? false
             : includesTrailingComma || includesLeadingNewline;
 
-        // console.log({
-        //     wrapThreshold,
-        //     includesCommentTrigger,
-        //     manualWrap,
-        //     includesTrailingComma,
-        //     includesLeadingNewline,
-        // });
-
         const newDoc = insertLinesIntoArray(
             originalFormattedOutput,
             manualWrap,
