@@ -1,5 +1,5 @@
 import {stringify} from '@augment-vir/common';
-import {Doc, doc} from 'prettier';
+import {type Doc, type doc} from 'prettier';
 
 type NestedStringArray = (string | NestedStringArray)[];
 

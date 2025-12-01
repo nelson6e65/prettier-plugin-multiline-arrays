@@ -1,4 +1,4 @@
-import {Doc} from 'prettier';
+import {type Doc} from 'prettier';
 
 type Parents = {parent: Doc; childIndexInThisParent: number | undefined};
 
@@ -15,6 +15,7 @@ export function walkDoc(
         currentDoc: Doc,
         parents: Parents[],
         index: number | undefined,
+        // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
     ) => boolean | void | undefined,
     parents: Parents[] = [],
     index: number | undefined = undefined,

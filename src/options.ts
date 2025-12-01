@@ -1,5 +1,5 @@
-import {getObjectTypedKeys, Values} from '@augment-vir/common';
-import {SupportOptionType as PrettierOptionType} from 'prettier';
+import {getObjectTypedKeys, type Values} from '@augment-vir/common';
+import {type SupportOptionType as PrettierOptionType} from 'prettier';
 
 export const envDebugKey = 'MULTILINE_DEBUG';
 

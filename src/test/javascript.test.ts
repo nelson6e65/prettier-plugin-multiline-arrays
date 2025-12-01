@@ -1,7 +1,7 @@
 import {describe} from '@augment-vir/test';
 import {capitalizeFirst} from '../augments/string.js';
 import {nextLinePatternComment, nextWrapThresholdComment} from '../options.js';
-import {MultilineArrayTest, runTests} from './run-tests.mock.js';
+import {type MultilineArrayTest, runTests} from './run-tests.mock.js';
 
 const javascriptTests: MultilineArrayTest[] = [
     {

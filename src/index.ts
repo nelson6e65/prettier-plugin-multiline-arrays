@@ -1,17 +1,17 @@
 import {getObjectTypedKeys, mapObjectValues} from '@augment-vir/common';
 import {
-    BooleanSupportOption,
-    IntSupportOption,
-    Parser,
-    Plugin,
-    Printer,
-    RequiredOptions,
-    StringSupportOption,
-    SupportOption,
+    type BooleanSupportOption,
+    type IntSupportOption,
+    type Parser,
+    type Plugin,
+    type Printer,
+    type RequiredOptions,
+    type StringSupportOption,
+    type SupportOption,
 } from 'prettier';
 import {parsers as babelParsers} from 'prettier/plugins/babel';
 import {parsers as tsParsers} from 'prettier/plugins/typescript';
-import {MultilineArrayOptions, defaultMultilineArrayOptions, optionHelp} from './options.js';
+import {type MultilineArrayOptions, defaultMultilineArrayOptions, optionHelp} from './options.js';
 import {wrapParser} from './preprocessing.js';
 import {multilineArrayPrinter} from './printer/multiline-array-printer.js';
 

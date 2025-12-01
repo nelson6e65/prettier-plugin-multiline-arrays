@@ -1,4 +1,4 @@
-import {ArrayExpression, ArrayPattern, Node} from 'estree';
+import {type ArrayExpression, type ArrayPattern, type Node} from 'estree';
 
 export type ArrayLikeNode = ArrayExpression | ArrayPattern;
 

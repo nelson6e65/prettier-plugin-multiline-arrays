@@ -1,4 +1,4 @@
-import {BaseNode} from 'estree';
+import {type BaseNode} from 'estree';
 import {extractTextBetweenRanges} from '../augments/array.js';
 
 export function containsTrailingComma(

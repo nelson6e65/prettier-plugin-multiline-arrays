@@ -1,4 +1,4 @@
-import type {SourceLocation} from 'estree';
+import {type SourceLocation} from 'estree';
 
 /** Both line and column in "range" are 0 indexed. */
 export function extractTextBetweenRanges(

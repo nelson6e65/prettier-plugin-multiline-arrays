@@ -1,5 +1,5 @@
 import {describe, itCases} from '@augment-vir/test';
-import {MultilineArrayOptions, optionPropertyValidators} from './options.js';
+import {type MultilineArrayOptions, optionPropertyValidators} from './options.js';
 
 describe('optionPropertyValidators', () => {
     itCases(

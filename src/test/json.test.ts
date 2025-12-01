@@ -1,6 +1,6 @@
 import {describe} from '@augment-vir/test';
 import {nextWrapThresholdComment} from '../options.js';
-import {MultilineArrayTest, runTests} from './run-tests.mock.js';
+import {type MultilineArrayTest, runTests} from './run-tests.mock.js';
 
 const jsonTests: MultilineArrayTest[] = [
     {

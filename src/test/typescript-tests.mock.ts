@@ -6,7 +6,7 @@ import {
     setLinePatternComment,
     setWrapThresholdComment,
 } from '../options.js';
-import {MultilineArrayTest} from './run-tests.mock.js';
+import {type MultilineArrayTest} from './run-tests.mock.js';
 
 export const typescriptTests: MultilineArrayTest[] = [
     {

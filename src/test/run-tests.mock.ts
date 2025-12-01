@@ -1,8 +1,8 @@
 import {assert} from '@augment-vir/assert';
-import {PartialWithNullable, removeColor} from '@augment-vir/common';
+import {type PartialWithNullable, removeColor} from '@augment-vir/common';
 import {it} from '@augment-vir/test';
-import {Options as PrettierOptions, format as prettierFormat} from 'prettier';
-import {MultilineArrayOptions} from '../options.js';
+import {type Options as PrettierOptions, format as prettierFormat} from 'prettier';
+import {type MultilineArrayOptions} from '../options.js';
 import {repoConfig} from './prettier-config.js';
 
 async function runPrettierFormat(

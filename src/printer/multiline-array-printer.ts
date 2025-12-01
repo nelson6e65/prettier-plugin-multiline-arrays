@@ -1,7 +1,7 @@
-import type {AnyFunction} from '@augment-vir/common';
-import {Node} from 'estree';
-import {AstPath, ParserOptions, Printer} from 'prettier';
-import {MultilineArrayOptions, envDebugKey, fillInOptions} from '../options.js';
+import {type AnyFunction} from '@augment-vir/common';
+import {type Node} from 'estree';
+import {type AstPath, type ParserOptions, type Printer} from 'prettier';
+import {type MultilineArrayOptions, envDebugKey, fillInOptions} from '../options.js';
 import {printWithMultilineArrays} from './insert-new-lines.js';
 import {getOriginalPrinter} from './original-printer.js';
 

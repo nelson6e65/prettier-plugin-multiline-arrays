@@ -1,10 +1,10 @@
-import {getObjectTypedKeys, stringify, Values, type AnyObject} from '@augment-vir/common';
-import {AstPath, Doc, doc, ParserOptions} from 'prettier';
+import {type AnyObject, getObjectTypedKeys, stringify, type Values} from '@augment-vir/common';
+import {type AstPath, type Doc, doc, type ParserOptions} from 'prettier';
 import {isDocCommand} from '../augments/doc.js';
-import {MultilineArrayOptions} from '../options.js';
+import {type MultilineArrayOptions} from '../options.js';
 import {walkDoc} from './child-docs.js';
 import {
-    CommentTriggerWithEnding,
+    type CommentTriggerWithEnding,
     getCommentTriggers,
     parseNextLineCounts,
 } from './comment-triggers.js';

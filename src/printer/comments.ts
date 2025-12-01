@@ -1,4 +1,4 @@
-import {Comment} from 'estree';
+import {type Comment} from 'estree';
 
 const ignoreTheseKeys = ['tokens'];
 const ignoreTheseChildTypes = [

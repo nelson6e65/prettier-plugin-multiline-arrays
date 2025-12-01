@@ -1,4 +1,4 @@
-import {Printer} from 'prettier';
+import {type Printer} from 'prettier';
 
 let originalPrinter: Printer | undefined;
 
