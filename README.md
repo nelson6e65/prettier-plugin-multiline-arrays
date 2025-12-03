@@ -6,11 +6,11 @@ TypeScript, JavaScript, and JSON files are officially supported (others may stil
 
 [Please file issues in the GitHub repo](https://github.com/electrovir/prettier-plugin-multiline-arrays/issues/new) and include code examples if you come across formatting errors.
 
+Only supported on Prettier versions >=3.0.0 <3.7.0.
+
 ## Usage
 
 Add this config to your prettierrc file:
-
-<!-- example-link: src/readme-examples/prettier-options.example.ts -->
 
 ```TypeScript
 export default {
@@ -54,8 +54,6 @@ The precedence of forcing wrapping goes as follows:
 
 - Not formatted:
 
-      <!-- example-link: src/readme-examples/not-formatted.example.ts -->
-
     ```TypeScript
     // prettier-ignore
     export const myArray = ['a', 'b', 'c',]; // note the trailing comma which forces a wrap
@@ -66,8 +64,6 @@ The precedence of forcing wrapping goes as follows:
     ```
 
 - Use comment overrides to affect wrapping:
-
-      <!-- example-link: src/readme-examples/formatted-with-comments.example.ts -->
 
     ```TypeScript
     // prettier-multiline-arrays-next-line-pattern: 2 1
